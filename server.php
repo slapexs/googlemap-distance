@@ -12,7 +12,7 @@ include_once('./condb.php');
 
     $response = [
         'status' => 'OK',
-        'data' => $list_locations
+        'locations' => $list_locations
     ];
 
     echo json_encode($response);

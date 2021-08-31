@@ -1,9 +1,9 @@
 <?php
 // localhost
-$hostname = "localhost";
-$hostusername = "root";
-$hostpassword = "root";
-$dbname = "googlemap";
+$hostname = "HOSTING";
+$hostusername = "DATABASE_USERNAME";
+$hostpassword = "DATABASE_PASSWORD";
+$dbname = "DATABASE_NAME";
 
 try {
     $conn = new PDO("mysql:host=$hostname;dbname=$dbname;charset=utf8", $hostusername, $hostpassword);
